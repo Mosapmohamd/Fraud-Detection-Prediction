@@ -133,7 +133,7 @@ st.markdown(f"""
 # Define model paths
 MODEL_PATHS = {
     "Original Data": {
-        "Logistic Regression": "models/original_LogisticRegression_best.joblib",
+        "Logistic Regression": r"models/original_LogisticRegression_best.joblib",
         "Random Forest": "models/original_RandomForest_best.joblib",
         "LightGBM": "models/original_LightGBM_best.joblib"
     },
