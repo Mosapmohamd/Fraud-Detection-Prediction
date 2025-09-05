@@ -134,23 +134,23 @@ st.markdown(f"""
 MODEL_PATHS = {
     "Original Data": {
         "Logistic Regression": r"models\original_LogisticRegression_best.joblib",
-        "Random Forest": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\original_RandomForest_best.joblib",
-        "LightGBM": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\original_LightGBM_best.joblib"
+        "Random Forest": r"models\original_RandomForest_best.joblib",
+        "LightGBM": r"models\original_LightGBM_best.joblib"
     },
     "Undersampling": {
-        "Logistic Regression": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\undersampling_LogisticRegression_best.joblib",
-        "Random Forest": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\undersampling_RandomForest_best.joblib",
-        "LightGBM": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\undersampling_LightGBM_best.joblib"
+        "Logistic Regression": r"models\undersampling_LogisticRegression_best.joblib",
+        "Random Forest": r"models\undersampling_RandomForest_best.joblib",
+        "LightGBM": r"models\undersampling_LightGBM_best.joblib"
     },
     "Oversampling": {
-        "Logistic Regression": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\oversampling_LogisticRegression_best.joblib",
-        "Random Forest": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\oversampling_RandomForest_best.joblib",
-        "LightGBM": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\oversampling_LightGBM_best.joblib"
+        "Logistic Regression": r"models\oversampling_LogisticRegression_best.joblib",
+        "Random Forest": r"models\oversampling_RandomForest_best.joblib",
+        "LightGBM": r"models\oversampling_LightGBM_best.joblib"
     },
     "SMOTE": {
-        "Logistic Regression": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\smote_LogisticRegression_best.joblib",
-        "Random Forest": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\smote_RandomForest_best.joblib",
-        "LightGBM": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\smote_LightGBM_best.joblib"
+        "Logistic Regression": r"models\smote_LogisticRegression_best.joblib",
+        "Random Forest": r"models\smote_RandomForest_best.joblib",
+        "LightGBM": r"models\smote_LightGBM_best.joblib"
     }
 }
 
