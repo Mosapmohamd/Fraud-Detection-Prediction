@@ -133,7 +133,7 @@ st.markdown(f"""
 # Define model paths
 MODEL_PATHS = {
     "Original Data": {
-        "Logistic Regression": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\original_LogisticRegression_best.joblib",
+        "Logistic Regression": r"models\original_LogisticRegression_best.joblib",
         "Random Forest": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\original_RandomForest_best.joblib",
         "LightGBM": r"D:\Projects\Machine learning Projects\Fraud Detection Prediciton\NoteBook\models\original_LightGBM_best.joblib"
     },
