@@ -133,24 +133,24 @@ st.markdown(f"""
 # Define model paths
 MODEL_PATHS = {
     "Original Data": {
-        "Logistic Regression": r"models\original_LogisticRegression_best.joblib",
-        "Random Forest": r"models\original_RandomForest_best.joblib",
-        "LightGBM": r"models\original_LightGBM_best.joblib"
+        "Logistic Regression": "models/original_LogisticRegression_best.joblib",
+        "Random Forest": "models/original_RandomForest_best.joblib",
+        "LightGBM": "models/original_LightGBM_best.joblib"
     },
     "Undersampling": {
-        "Logistic Regression": r"models\undersampling_LogisticRegression_best.joblib",
-        "Random Forest": r"models\undersampling_RandomForest_best.joblib",
-        "LightGBM": r"models\undersampling_LightGBM_best.joblib"
+        "Logistic Regression": "models/undersampling_LogisticRegression_best.joblib",
+        "Random Forest": "models/undersampling_RandomForest_best.joblib",
+        "LightGBM": "models/undersampling_LightGBM_best.joblib"
     },
     "Oversampling": {
-        "Logistic Regression": r"models\oversampling_LogisticRegression_best.joblib",
-        "Random Forest": r"models\oversampling_RandomForest_best.joblib",
-        "LightGBM": r"models\oversampling_LightGBM_best.joblib"
+        "Logistic Regression": "models/oversampling_LogisticRegression_best.joblib",
+        "Random Forest": "models/oversampling_RandomForest_best.joblib",
+        "LightGBM": "models/oversampling_LightGBM_best.joblib"
     },
     "SMOTE": {
-        "Logistic Regression": r"models\smote_LogisticRegression_best.joblib",
-        "Random Forest": r"models\smote_RandomForest_best.joblib",
-        "LightGBM": r"models\smote_LightGBM_best.joblib"
+        "Logistic Regression": "models/smote_LogisticRegression_best.joblib",
+        "Random Forest": "models/smote_RandomForest_best.joblib",
+        "LightGBM": "models/smote_LightGBM_best.joblib"
     }
 }
 
