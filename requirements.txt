@@ -1,8 +1,7 @@
-streamlit==1.32.0
-pandas==2.1.4
-numpy==1.26.4
-scikit-learn==1.2.2  # Older stable version
-joblib==1.2.0        # Compatible version
-plotly==5.18.0
-lightgbm==4.1.0
-imbalanced-learn==0.10.1  # Older compatible version
+streamlit
+pandas
+numpy
+joblib
+scikit-learn
+plotly
+lightgbm
