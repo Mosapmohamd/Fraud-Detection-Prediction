@@ -1,95 +1,107 @@
-# AI-Powered Fraud Detection System
+# 💻 AI-Powered Fraud Detection System  
 
-## Overview
-This project is a **Graduation Project** that focuses on building an AI-based system for detecting fraudulent financial transactions.  
-The system applies different sampling strategies and machine learning models to handle **class imbalance** and achieve high accuracy in fraud detection.
-
----
-
-## Problem
-Financial fraud is a major challenge that causes **billions of dollars in losses** for banks and businesses every year.  
-Detecting fraud is difficult due to the **rarity of fraudulent transactions** compared to normal ones.
+An AI-based system for detecting fraudulent financial transactions  
+Developed as a Graduation Project during the **NTI & ITIDA Training Program**
 
 ---
 
-## Objectives
-- Build a machine learning pipeline to predict fraudulent transactions.  
-- Compare different resampling strategies (Original, Under-sampling, Over-sampling, SMOTE).  
-- Evaluate multiple models to identify the best-performing one.  
-- Develop a practical dashboard to demonstrate fraud detection in action.
+## 📌 Overview  
+Financial fraud causes billions in losses every year  
+Detecting fraudulent transactions is difficult due to their rarity compared to legitimate ones  
+
+This project applies advanced **machine learning models** and **sampling strategies** to handle class imbalance and achieve **high fraud detection accuracy**
 
 ---
 
-## Dataset
-- Source: Financial transactions dataset.  
-- Size: Millions of rows with multiple features.  
-- Key features: `amount`, `oldbalanceOrg`, `newbalanceDest`, `type`, etc.  
-- Target: `isFraud` (1 = Fraud, 0 = Not Fraud).
+## 🎯 Objectives  
+- Build an end-to-end ML pipeline to predict fraudulent transactions  
+- Apply and compare different resampling strategies  
+- Evaluate multiple ML models using standard metrics  
+- Deploy a practical dashboard to demonstrate fraud detection  
 
 ---
 
-## Methodology
-1. **Data Preprocessing**  
-   - Dropped irrelevant columns (`nameOrig`, `nameDest`).  
-   - Scaled numeric features and one-hot encoded categorical ones.  
-
-2. **Handling Imbalance**  
-   - Tested multiple strategies:  
-     - Original data  
-     - Random Under-sampling  
-     - Random Over-sampling  
-     - SMOTE  
-
-3. **Model Training**  
-   - Models used:  
-     - Logistic Regression  
-     - Random Forest  
-     - LightGBM  
-     - XGBoost  
-   - Cross-validation: **Stratified K-Fold (5 folds)**.  
-
-4. **Evaluation Metrics**  
-   - Precision  
-   - Recall  
-   - F1-Score  
-   - AUC  
+## 📂 Dataset  
+- **Source**: Financial transactions dataset  
+- **Size**: Millions of rows  
+- **Key Features**:  
+  - `amount`  
+  - `oldbalanceOrg`  
+  - `newbalanceDest`  
+  - `type`  
+- **Target**: `isFraud` (1 = Fraud, 0 = Not Fraud)  
 
 ---
 
-## Results
-- Models performed differently across sampling strategies.  
-- Example outcome: **SMOTE + LightGBM achieved the highest F1 Score and AUC**.  
-- Results were summarized in comparative tables and plots.
+## ⚙️ Methodology  
+
+### Data Preprocessing  
+- Removed irrelevant columns (`nameOrig`, `nameDest`)  
+- Scaled numeric features  
+- One-hot encoded categorical features  
+
+### Handling Class Imbalance  
+- Tested multiple strategies:  
+  - Original data  
+  - Random Under-sampling  
+  - Random Over-sampling  
+  - SMOTE  
+
+### Model Training  
+- Models:  
+  - Logistic Regression  
+  - Random Forest  
+  - LightGBM  
+  - XGBoost  
+- Validation: Stratified K-Fold (5 folds)  
+
+### Evaluation Metrics  
+- Precision  
+- Recall  
+- F1-Score  
+- AUC  
 
 ---
 
-## Best Model
-- **LightGBM with SMOTE** was selected as the best model.  
-- Achieved strong balance between **Recall and Precision**.  
+## 📊 Results  
+- SMOTE + LightGBM achieved the **highest F1-Score and AUC**  
+- Balanced precision and recall  
+- Results summarized in comparative tables and plots  
 
 ---
 
-## Practical Application
-The model can be integrated into **banking systems** to detect fraud in real time.  
-A Streamlit-based dashboard demonstrates:  
-- User inputs transaction details.  
-- Model predicts fraud likelihood.  
-- Alert generated if suspicious.  
+## 🏆 Best Model  
+- **LightGBM + SMOTE**  
+- Selected for deployment due to strong performance on both precision and recall  
 
 ---
 
-## Challenges
-- Highly imbalanced dataset.  
-- Large data size and training time.  
-- Choosing the right sampling strategy.  
+## 💻 Dashboard Application  
+A **Streamlit-based dashboard** was built to demonstrate the model in action  
+- User inputs transaction details  
+- Model predicts fraud probability  
+- System alerts if transaction is suspicious  
+
+🔗 [Live App](https://fraud-detection-prediction.streamlit.app/)  
 
 ---
 
-## Future Work
-- Deploy the system on the cloud.  
-- Integrate with live transaction systems.  
-- Explore deep learning approaches.  
-
-
+## 📁 Repository  
+Explore the full project implementation, notebooks, and code  
+🔗 [GitHub Repository](https://github.com/Mosapmohamd/Fraud-Detection-Prediction)  
 
 ---
+
+## 👥 Team  
+- **Mosap Mohamed**  
+- **Jana Osame**  
+- **Hana Salah**  
+
+**Mentor:** Eng. Fatma  
+
+---
+
+## 🚀 Future Work  
+- Integrate the model with real-time banking systems  
+- Optimize model inference for production environments  
+- Expand feature engineering for higher accuracy  
