@@ -1,7 +1,6 @@
 # 💻 AI-Powered Fraud Detection System  
 
 An AI-based system for detecting fraudulent financial transactions  
-Developed as a Graduation Project during the **NTI & ITIDA Training Program**
 
 ---
 
